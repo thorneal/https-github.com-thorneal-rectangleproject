@@ -7,9 +7,21 @@
 //
 
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main()
+{
+    int width, lngth, area, peri;
+    cout << "\n\n Find the permimeter and area of a rectangle :\n";
+    cout << "-------------------------------------------------\n";
+    cout<<" Input the length of the rectangle : ";
+    cin>>lngth;
+    cout<<" Input the width of the rectangle : ";
+    cin>>width;
+    area=(lngth*width);
+    peri=2*(lngth+width);
+    cout<<" The area of the rectangle is : "<< area << endl;
+    cout<<" The perimeter of the rectangle is : "<< peri << endl;
+    cout << endl;
     return 0;
-}
+    }
